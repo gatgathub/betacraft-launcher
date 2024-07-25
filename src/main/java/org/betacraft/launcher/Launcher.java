@@ -1044,20 +1044,7 @@ public class Launcher {
 	}
 
 	public static boolean checkForUpdate(boolean release) {
-		// Get the latest version
-		String update = getUpdate(release);
-		if (update == null) {
-			// No internet connection scenario
-			return false;
-		}
-		String update_name = update.startsWith("!") ? update.replace("!", "") : update; 
-		if (!VERSION.equalsIgnoreCase(update_name)) {
-			// The latest version doesn't match the local version
-			System.out.println("Found a new version of the launcher (" + update + ").");
-			return true;
-		} else {
-			return false;
-		}
+		return false
 	}
 
 	public static String getUpdate(boolean release) {
