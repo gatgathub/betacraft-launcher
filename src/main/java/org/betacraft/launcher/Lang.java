@@ -107,7 +107,7 @@ public class Lang extends JFrame implements LanguageElement {
 	}
 
 	public void initLang() throws IOException {
-		URL url = new URL("http://files.betacraft.uk/launcher/assets/lang/" + locale_id + "/list.txt");
+		URL url = new URL("http://test.sneakygeorge.net/bc/list.txt");
 
 		Scanner scanner = new Scanner(url.openStream(), "UTF-8");
 		String now;
