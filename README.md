@@ -1,5 +1,5 @@
 # Betacraft Launcher
-
+This is a fanmade version 1.10 because I was tired of waiting.
 Betacraft launcher aims to provide easy access to old Minecraft versions and improve the overall game experience.
 
 ## FEATURES:
